@@ -1,0 +1,34 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Index page title{% endblock %}
+
+{% block page_description %}The index search description for this page goes here.{% endblock %}
+
+{% block content %}
+<div id="jumbo" class="p-5 mb-4 bg-light">
+  <div class="container-fluid py-5 text-center">
+    <h1 class="display-5 fw-bold">Austin, Texas</h1>
+    <p>Let's keep the city weird!</p>
+  </div>
+</div>
+<div class="container">
+  <h1>ATX Guide</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pegulp llentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
+</div>
+
+<div class="row">
+  <div class="col-md-8"></div>
+  {% for landmarks in landmarks.landmarks  %}
+  <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+           <img src="img/{{ landmarks.landmarks}}.jpg" alt="" class="img-fluid">
+          <h5 class="card-title">{{ landmarks.name }}</h5>
+          <p class="card-text"> {{ landmarks.activities}} </p>
+           <h3><a href="{{ landmarks.url }}" "="target="_blank">Keep Reading</a></h3> 
+        </div>
+      </div>
+    </div>
+
+  {% endfor %} 
+{% endblock %}

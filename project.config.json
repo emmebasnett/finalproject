@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "fileId": "1RgMhjtkXlbbf9uzSzy_xPRKwxcVZIZqVytgM_JoU4E4",
+      "type": "doc",
+      "name": "library"
+    },
+    {
+      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
+      "type": "sheet",
+      "name": "bookstores"
+    },
+      {
+        "fileId": "1cqVs5j6ykN80DLg-uq7ECFPUJV3ZkeJh6wucnS9X3Dw",
+        "type": "doc",
+        "name": "restaurants"
+      },
+      {
+        "fileId": "1-w3OrmZhOUzTDSEC3vUdBwIiP_CO5GnEcNSAUSAK7hM",
+        "type": "sheet",
+        "name": "landmarks"
+      }
+],
+
+  "to_bake": [
+    {
+      "template": "bake-landmarks",
+      "data": "landmarks",
+      "array": "landmarks",
+      "slug": "slug",
+      "path": "landmarks"
+    }
+  ]
+}
