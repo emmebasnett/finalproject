@@ -9,9 +9,11 @@
   <div class="col-sm-6 col-lg-4">
     <div class="card text-dark bg-light mb-4">
       <div class="card-body">
+        <img src="img/restaurants/{{ restaurants.image }}" alt="" class="img-fluid">
         <h5 class="card-title">{{ restaurants.restaurants_name }}</h5>
-         <h6>{{ restaurants.name}}</h6> 
+         <h6>{{ restaurants.name }}</h6> 
         <p class="card-text">{{ restaurants.category }}</p>
+         <p class="card-text">{{ restaurants.address }}</p>
         <a href="{{ restaurants.source }}"target="_blank">Keep Reading</a>
       </div>
     </div>
