@@ -71,6 +71,24 @@
       "address": "2400 E Oltorf St #1A, Austin, TX 78741",
       "category": "Pan-Asian",
       "image": "888.jpg"
+    },
+    {
+      "name": "Pool Burger",
+      "address": "2315 Lake Austin Blvd, Austin, TX 78703",
+      "category": "Burgers",
+      "image": "pool-burger.jpg"
+    },
+    {
+      "name": "Loro",
+      "address": "2115 S Lamar Blvd, Austin, TX 78704",
+      "category": "Asian Smokehouse",
+      "image": "loro.png"
+    },
+    {
+      "name": "El Alma",
+      "address": "1025 Barton Springs Rd, Austin, TX 78704",
+      "category": "Mexican",
+      "image": "el-alma.jpg"
     }
   ]
 }

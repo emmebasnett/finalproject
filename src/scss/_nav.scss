@@ -3,9 +3,10 @@
 .navbar {
   margin-bottom: 20px;
   text-decoration: white;
+  
 
-  .underline-on-hover:hover {
+  .navbar-nav a:hover {
     text-decoration: underline;
+      }
 }
 
-}
